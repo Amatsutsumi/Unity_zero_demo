@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09f33c89257cf9043ac2e6b28249adf8, type: 3}
+  m_Name: Lucy_Fist1
+  m_EditorClassIdentifier: 
+  _comboName: Lucy_Fist1
+  _comboDamage:
+  - hitName: rightFaceHit
+    parryName: rightFaceParry
+    damage: 10
+  _coldTime: 0.5
+  _nextCombo: {fileID: 11400000, guid: 1cf95a0dc0f866c4b92124663778432c, type: 2}
+  _branchCombo: {fileID: 0}
+  _damageType: 1
